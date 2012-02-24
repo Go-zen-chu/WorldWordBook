@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WorldWordBook</string>
+    
+    <!-- Strings for layouts -->
+    <string name="enter_word_book_dlg">Word Book Name</string>
+    <string name="record_1_lyt_low_accuracy_rate_words">Words which have low correct rate</string>
+    <string name="record_1_lyt_tested_date">Date</string>
+    <string name="record_1_lyt_average_accuracy_rate">AveAR</string>
+    <string name="record_1_lyt_explain_AveAR">AveAR = Average Accuracy Rate</string>
+    <string name="record_1_lyt_draw_graph_btn">Show graph </string>
+    <string name="test_lyt_2_wrong_count_btn">Click if you missed this question</string>
+    <string name="test_widget_q">Q</string>
+    <string name="test_widget_question">Question</string>
+    <string name="widget_setting_lyt_choose_word_book">Choose a word book which you want to test</string>
+    <string name="widget_setting_lyt_pick_color">Pick a text color</string>
+    <string name="widget_setting_lyt_pick_color_btn">Text color</string>
+    <string name="widget_setting_lyt_done_btn">Done</string>
+    <string name="edit_word_lyt_question">Question</string>
+    <string name="edit_word_lyt_answer">Answer</string>
+    <string name="edit_word_lyt_explanation">Explanation or How to memorize</string>
+    <string name="edit_word_lyt_save">Save</string>
+    <string name="edit_word_lyt_voice_recognition">voice recognition</string>
+    <string name="enter_site_name_dlg_site_name_example">e.g. Google</string>
+    <string name="enter_site_name_dlg_enter_site_name">Name of a web site</string>
+    <string name="enter_site_name_dlg_url_example">e.g. http://www.google.com/search?q=@word</string>
+    <string name="enter_site_name_dlg_url_explanation">If you search the word \"@word\" in your favorite web site, you can get a URL like this.</string>
+    <string name="enter_site_name_dlg_enter_url">URL which you queried \"@word\" in a search box</string>
+    
+    <!-- Strings for Activities -->
+    <string name="edit_word_title_new">New word</string>
+    <string name="edit_word_enter_question">Enter a question</string>
+    <string name="edit_word_enter_answer">Enter an answer of the question</string>
+    <string name="export_csv_del_file_error">Sorry. Couldn\'t delete copied file in SD.</string>
+    <string name="import_title">Import from csv files</string>
+    <string name="import_start">Import started</string>
+    <string name="import_finish">Import finished</string>
+    <string name="import_failed">Sorry, import failed</string>
+    <string name="manage_dropbox_log_out">Log out from Dropbox</string>
+    <string name="manage_dropbox_log_in">Log in to Dropbox</string>
+    <string name="manage_dropbox_could_not_authenticate">Couldn\'t authenticate Dropbox :</string>
+    <string name="set_url_title">Pick URLs for %s</string>
+    <string name="set_url_title_of_dlg">Register web site and url</string>
+    <string name="set_url_fill_in_box">Please fill in the box</string>
+    <string name="set_url_use_this_word">\"@word\" should be used in your URL</string>
+    <string name="set_url_you_cant_delete">Sorry, you can\'t delete this one.</string>
+    <string name="set_url_would_you_delete">Would you delete %s?</string>
+    <string name="test_title">%s Test</string>
+    <string name="test_accuracy_rate">Accuracy rate : %d %%</string>
+    <string name="test_test_count">Tested %d times</string>
+    <string name="test_accuracy_rate_under">Accuracy rate : Under %d %%</string>
+    <string name="test_wrong_count">You missed this question for %d times</string>
+    <string name="test_normal">Normal test</string>
+    <string name="test_reverse">Reverse test</string>
+    <string name="test_random">Random test</string>
+    <string name="test_difficulty">Difficulty question</string>
+    <string name="test_book_mark_dialog">Would you start from here next time?</string>
+    <string name="test_record_title">%s Record</string>
+    <string name="test_record_no_internet">No internet connection</string>
+    <string name="utils_export">Finished exporting %s</string>
+    <string name="utils_search_files">Searching csv files</string>
+    <string name="utils_no_csv">No csv file founded</string>
+    <string name="utils_make_folder">Would you make import-export-folder?</string>
+    <string name="utils_made_folder">Import-export-folder is made</string>
+    <string name="utils_couldnt_make_folder">Sorry. We couldn\'t make import-export-folder</string>
+    <string name="widget_setting_title">Widget Setting</string>
+    <string name="word_adapter_accuracy_rate">Accuracy rate : %d</string>
+    <string name="word_adapter_answer">Ans : %s</string>
+    <string name="word_book_adapter_date">Tested date : %s</string>
+    <string name="word_book_list_mount_sd">Mount your SD card collectly, please</string>
+    <string name="word_book_list_title">WorldWordBook</string>
+    <string name="word_book_list_new">New</string>
+    <string name="word_book_list_import_sd">Import from SD</string>
+    <string name="word_book_list_import_dbox">Import from Dropbox</string>
+    <string name="word_book_list_help">Help</string>
+    <string name="word_book_list_dialog">Enter a workbook\'s name</string>
+    <string name="word_book_list_menu_change_name">Change name</string>
+    <string name="word_book_list_menu_pick_url">Set url</string>
+    <string name="word_book_list_menu_export_to_sd">Export to SD card as csv</string>
+    <string name="word_book_list_menu_export_to_dbox">Export to Dropbox as csv</string>
+    <string name="word_book_list_menu_del_book">Delete workbook</string>
+    <string name="word_book_list_del_record_dialog">Would you delete the record of %s ?</string>
+    <string name="word_book_list_del_word_book_dialog">Would you delete %s ?</string>
+    <string name="word_book_list_help_1">How to use this app</string>
+    <string name="word_book_list_help_2">About this app</string>
+    <string name="word_book_list_detailed_help_1">Just flick the list, then you\'ll know!</string>
+    <string name="word_book_list_detailed_help_2">Made by Go_zen_chu.\nThanks for using!\n</string>
+    <string name="word_list_new">new</string>
+    <string name="word_list_export">export</string>
+    <string name="word_list_record">record</string>
+    <string name="word_list_del_record">Delete record</string>
+    <string name="word_list_menu_reset_wrong_count">Reset wrong count</string>
+    <string name="word_list_menu_del_word">Delete this word</string>
+    <string name="word_list_menu_del_dialog">Would you delete %s ?</string>
+      
+</resources>

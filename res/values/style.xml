@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Animation.Activity" parent="android:Animation.Activity">
+		<item name="android:activityOpenEnterAnimation">@anim/slide_in_from_left</item>
+		<item name="android:activityOpenExitAnimation"> @anim/fade_out_to_right</item>
+		<item name="android:activityCloseExitAnimation">@anim/fade_out_to_left</item>
+		<item name="android:activityCloseEnterAnimation">@anim/slide_in_from_right</item>
+	</style>
+</resources>

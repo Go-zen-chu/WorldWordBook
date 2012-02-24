@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="60dp"
+  android:orientation="vertical">
+    <TextView 
+        android:text="TextView1"
+        android:id="@+id/twoVerticalTextInf_TV1" 
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent" 
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+    <TextView 
+        android:text="TextView2"
+        android:id="@+id/twoVerticalTextInf_TV2" 
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+</LinearLayout>

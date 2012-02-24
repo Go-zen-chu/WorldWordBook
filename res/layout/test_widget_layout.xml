@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_marginLeft="10dp"
+  android:layout_marginRight="10dp"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal"
+  android:background="#11FFFFFF">
+	<TextView
+    	android:text="@string/test_widget_q"
+    	android:textSize="20dp"
+    	android:textColor="#FFFFFF"
+    	android:id="@+id/testWidget_QandATV"
+    	android:gravity="center"
+    	android:layout_width="match_parent" 
+    	android:layout_height="match_parent"
+    	android:layout_weight="8"
+    	android:background="#00FFFFFF"/>
+    <TextView
+    	android:text="@string/test_widget_question"
+    	android:textSize="25dp"
+    	android:textColor="#FFFFFF"
+    	android:id="@+id/testWidget_QuestionTV"
+    	android:singleLine="true"
+        android:ellipsize="end"
+    	android:gravity="center"
+    	android:layout_width="match_parent" 
+    	android:layout_height="match_parent"
+    	android:layout_weight="2"
+    	android:background="#00FFFFFF"/>
+    <Button
+    	android:drawableTop="@drawable/gear"
+    	android:id="@+id/testWidget_BTN"
+    	android:layout_marginTop="30dp"
+    	android:layout_width="match_parent" 
+    	android:layout_height="match_parent"
+    	android:layout_weight="7"
+    	android:background="#00FFFFFF"/>
+</LinearLayout>

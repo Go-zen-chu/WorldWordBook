@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:onClick="prepareForNextQuestion">
+		
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="300dp"
+			android:layout_height="match_parent">
+			<TextView
+		    	android:text="ANSWER"
+				android:id="@+id/test_2_answerTV"
+		    	android:textSize="40dp"
+		    	android:gravity="center"
+        		android:ellipsize="end"
+		    	android:layout_width="match_parent" 
+		    	android:layout_height="match_parent"
+		    	android:layout_weight="10"/>
+
+		    <LinearLayout 
+				android:orientation="vertical"
+				android:layout_width="match_parent" 
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+				<TextView
+			    	android:text="WRONG COUNT"
+					android:id="@+id/test_2_wrongCountTV"
+			    	android:textSize="15dp"
+			    	android:gravity="center"
+			    	android:layout_width="match_parent" 
+			    	android:layout_height="match_parent"
+			    	android:layout_weight="1"/>
+				<Button
+					android:text="@string/test_lyt_2_wrong_count_btn"
+					android:id="@+id/test_2_wrongCountBTN"
+					android:gravity="center"
+					android:layout_width="match_parent" 
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:onClick="addWrongCount"/>
+			</LinearLayout>
+		</LinearLayout>
+		
+		    
+		<LinearLayout
+			    android:id="@+id/linearLayout1"
+			    android:layout_width="300dp"
+			    android:layout_height="match_parent"
+			    android:orientation="vertical">
+			<ScrollView
+				android:gravity="center"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1">
+				<LinearLayout
+					android:layout_width="match_parent" 
+					android:layout_height="match_parent"
+					android:orientation="vertical"
+					android:layout_gravity="center"
+					android:onClick="prepareForNextQuestion">
+					<TextView  
+						android:text="EXPLANATION"
+						android:id="@+id/test_2_explanationTV"
+						android:textSize="30dp"
+						android:gravity="center"
+		        		android:ellipsize="end"
+						android:layout_width="match_parent" 
+						android:layout_height="match_parent"/>
+				</LinearLayout>
+			</ScrollView>
+			<Button
+				android:text="WEB BUTTON 1"
+				android:id="@+id/test_2_webButton1"
+				android:singleLine="true"
+				android:ellipsize="end"
+				android:gravity="center"
+				android:layout_width="match_parent" 
+				android:layout_height="match_parent"
+				android:layout_weight="3"/>
+			<Button
+				android:text="WEB BUTTON 2"
+				android:id="@+id/test_2_webButton2"
+				android:singleLine="true"
+				android:ellipsize="end"
+				android:gravity="center"
+				android:layout_width="match_parent" 
+				android:layout_height="match_parent"
+				android:layout_weight="3"/>
+			<Button
+				android:text="WEB BUTTON 3"
+				android:id="@+id/test_2_webButton3"
+				android:singleLine="true"
+				android:ellipsize="end"
+				android:gravity="center"
+				android:layout_width="match_parent" 
+				android:layout_height="match_parent"
+				android:layout_weight="3"/>
+		 </LinearLayout>
+		 
+	</LinearLayout>
+</HorizontalScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+    <TextView 
+    	android:text="@string/enter_site_name_dlg_site_name_example"
+    	android:gravity="center"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"/>
+    <EditText 
+    	android:hint="@string/enter_site_name_dlg_enter_site_name"
+    	android:id="@+id/enterSiteNameAndUrlDlg_siteNameET"
+    	android:singleLine="true"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"/>
+    <TextView 
+    	android:text="@string/enter_site_name_dlg_url_explanation"
+    	android:gravity="center"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"/>
+    <TextView 
+        android:layout_marginTop="5dp"
+    	android:text="@string/enter_site_name_dlg_url_example"
+    	android:gravity="center"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"/>
+    <EditText 
+    	android:hint="@string/enter_site_name_dlg_enter_url"
+    	android:id="@+id/enterSiteNameAndUrlDlg_urlET"
+    	android:singleLine="true"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"/>
+</LinearLayout>

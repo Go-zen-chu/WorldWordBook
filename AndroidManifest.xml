@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.primer.world.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+	<uses-sdk android:minSdkVersion="8"/>
+	
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".WordBookListActivity"
+            android:theme="@style/slideAnim" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WordListActivity" />
+        <activity android:name=".EditWordActivity" />
+        <activity
+            android:name=".TestActivity"
+            android:theme="@style/slideAnim" />
+        <activity android:name=".ImportFromSdCardActivity" />
+        <activity android:name=".TestRecordActivity" />
+        <activity android:name=".WidgetSettingActivity" />
+        <activity android:name=".ListingRegisteredUrlActivity" />
+        <activity android:name=".SetUrlActivity" />
+        <activity
+            android:name=".ManageDropboxActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:name="com.dropbox.client2.android.AuthActivity" >
+            <intent-filter >
+
+                <!-- Change this to be db- followed by your app key -->
+                <data android:scheme="db-" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:label="@string/app_name"
+            android:name=".TestWidget" >
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/w_test_widget" />
+        </receiver>
+        <service android:name=".WidgetService" >
+            <intent-filter >
+                <action android:name="com.primer.world.android.CLICK_TEXT_VIEW" />
+                <action android:name="com.primer.world.android.CLICK_BUTTON" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

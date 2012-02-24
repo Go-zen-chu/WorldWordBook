@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- これらは、ウェブで調べるURLを決める時のPickUrlActivityで用いる -->
+<resources>
+    <color name="midnightblue">#191970</color>
+    <color name="dodgerblue">#1E90FF</color>
+</resources>

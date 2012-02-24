@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WorldWordBook</string>
+    
+    <!-- Strings for layouts -->
+    <string name="enter_word_book_dlg">単語帳名</string>
+    <string name="record_1_lyt_low_accuracy_rate_words">正答率が低い単語</string>
+    <string name="record_1_lyt_tested_date">日付</string>
+    <string name="record_1_lyt_average_accuracy_rate">平均正答率</string>
+    <string name="record_1_lyt_explain_AveAR"></string>
+    <string name="record_1_lyt_draw_graph_btn">グラフを表示</string>
+    <string name="test_lyt_2_wrong_count_btn">間違えたらクリック！</string>
+    <string name="test_widget_q">Q</string>
+    <string name="test_widget_question">問題</string>
+    <string name="widget_setting_lyt_choose_word_book">テストしたい単語帳の選択</string>
+    <string name="widget_setting_lyt_pick_color">テキストの色の選択</string>
+    <string name="widget_setting_lyt_pick_color_btn">テキストの色</string>
+    <string name="widget_setting_lyt_done_btn">完了</string>
+    <string name="edit_word_lyt_question">問題</string>
+    <string name="edit_word_lyt_answer">答え</string>
+    <string name="edit_word_lyt_explanation">説明や暗記方法など</string>
+    <string name="edit_word_lyt_save">保存</string>
+    <string name="edit_word_lyt_voice_recognition">音声認識</string>
+    <string name="enter_site_name_dlg_site_name_example">e.g. Google</string>
+    <string name="enter_site_name_dlg_enter_site_name">ウェブサイト名</string>
+    <string name="enter_site_name_dlg_url_example">e.g. http://www.google.com/search?q=@word</string>
+    <string name="enter_site_name_dlg_url_explanation">登録したいサイトの検索ボックスで、「@word」を検索した際のURLが上記のようになります</string>
+    <string name="enter_site_name_dlg_enter_url">「@word」を検索した際のURL</string>
+    
+    <!-- Strings for Activities -->
+    <string name="edit_word_title_new">新しい単語</string>
+    <string name="edit_word_enter_question">問題を入力</string>
+    <string name="edit_word_enter_answer">回答を入力してください</string>
+    <string name="export_csv_del_file_error">SDカード内にコピーしたファイルの削除に失敗しました</string>
+    <string name="import_title">csvファイルからインポートする</string>
+    <string name="import_start">インポートを開始しました</string>
+    <string name="import_finish">インポートが完了しました</string>
+    <string name="import_failed">Sorry, import failed</string>
+    <string name="manage_dropbox_log_out">Dropboxからログアウトする</string>
+    <string name="manage_dropbox_log_in">Dropboxにログインする</string>
+    <string name="manage_dropbox_could_not_authenticate">Dropboxの権限取得に失敗しました</string>
+    <string name="set_url_title">%sで用いるURLの設定</string>
+    <string name="set_url_title_of_dlg">サイト名とURLの設定</string>
+    <string name="set_url_fill_in_box">何か入力してください</string>
+    <string name="set_url_use_this_word">「@word」がURL内に入っていなければなりません</string>
+    <string name="set_url_you_cant_delete">これは削除できません</string>
+    <string name="set_url_would_you_delete">%sを削除しますか？</string>
+    <string name="test_title">%sのテスト</string>
+    <string name="test_accuracy_rate">平均正答率 : %d %%</string>
+    <string name="test_test_count">%d 回テストしました</string>
+    <string name="test_accuracy_rate_under">正答率 : %d %%以下</string>
+    <string name="test_wrong_count">この問題は %d 回間違えました</string>
+    <string name="test_normal">正順テスト</string>
+    <string name="test_reverse">反転テスト</string>
+    <string name="test_random">ランダムテスト</string>
+    <string name="test_difficulty">難易度順テスト</string>
+    <string name="test_book_mark_dialog">次はここから始めますか?</string>
+    <string name="test_record_title">%s の記録</string>
+    <string name="test_record_no_internet">インターネットに繋げません</string>
+    <string name="utils_export">%sのエクスポートが完了しました</string>
+    <string name="utils_search_files">csvファイルを検索しています</string>
+    <string name="utils_no_csv">csvファイルがありませんでした</string>
+    <string name="utils_make_folder">インポートとエクスポートに用いるフォルダを作成しますか？</string>
+    <string name="utils_made_folder">インポートとエクスポートフォルダを作成しました</string>
+    <string name="utils_couldnt_make_folder">フォルダ作成に失敗しました。。。</string>
+    <string name="widget_setting_title">ウィジェットの設定</string>
+    <string name="word_adapter_accuracy_rate">正答率 : %d</string>
+    <string name="word_adapter_answer">答え : %s</string>
+    <string name="word_book_adapter_date">テストした日付 : %s</string>
+    <string name="word_book_list_mount_sd">SDカードを挿入してください</string>
+    <string name="word_book_list_title">WorldWordBook</string>
+    <string name="word_book_list_new">新規作成</string>
+    <string name="word_book_list_import_sd">SDからのインポート</string>
+    <string name="word_book_list_import_dbox">Dropboxからのインポート</string>
+    <string name="word_book_list_help">ヘルプ</string>
+    <string name="word_book_list_dialog">単語帳名を入力してください</string>
+    <string name="word_book_list_menu_change_name">名前の変更</string>
+    <string name="word_book_list_menu_pick_url">URLを設定</string>
+    <string name="word_book_list_menu_export_to_sd">Export to SD card as csv</string>
+    <string name="word_book_list_menu_export_to_dbox">Export to Dropbox as csv</string>
+    <string name="word_book_list_menu_del_book">Delete workbook</string>
+    <string name="word_book_list_del_record_dialog">Would you delete the record of %s ?</string>
+    <string name="word_book_list_del_word_book_dialog">Would you delete %s ?</string>
+    <string name="word_book_list_help_1">How to use this app</string>
+    <string name="word_book_list_help_2">About this app</string>
+    <string name="word_book_list_detailed_help_1">Just flick the list, then you\'ll know!</string>
+    <string name="word_book_list_detailed_help_2">Made by Go_zen_chu.\nThanks for using!\n</string>
+    <string name="word_list_new">new</string>
+    <string name="word_list_export">export</string>
+    <string name="word_list_record">record</string>
+    <string name="word_list_del_record">Delete record</string>
+    <string name="word_list_menu_reset_wrong_count">Reset wrong count</string>
+    <string name="word_list_menu_del_word">Delete this word</string>
+    <string name="word_list_menu_del_dialog">Would you delete %s ?</string>
+      
+</resources>

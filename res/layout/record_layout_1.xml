@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+    <TextView 
+	    android:text="@string/record_1_lyt_low_accuracy_rate_words"
+	    android:textSize="15dp"
+	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<TextView 
+	    android:text="DIFFICULT QUESTIONS"
+	    android:textSize="18dp"
+	    android:id="@+id/record_1_questionsTV"
+        android:ellipsize="end"
+	    android:gravity="center"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+		android:text="@string/record_1_lyt_draw_graph_btn"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:onClick="showGraph"/>
+    <TextView
+	    android:text="@string/record_1_lyt_explain_AveAR"
+	    android:gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView
+		    android:text="@string/record_1_lyt_tested_date"
+		    android:gravity="center"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"/>
+		<TextView
+		    android:text="@string/record_1_lyt_average_accuracy_rate"
+		    android:gravity="center"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="4"/>
+	</LinearLayout>
+    <ListView 
+    	android:id="@+id/record_1_LV"
+    	android:layout_height="wrap_content"
+    	android:layout_width="match_parent"/>
+</LinearLayout>
